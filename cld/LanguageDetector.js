@@ -19,7 +19,7 @@
 var LARGE_STRING = 1.5 * 1024 * 1024;
 var IDLE_TIMEOUT = 10 * 1000;
 
-const WORKER_URL = "cld-worker.js";
+const WORKER_URL = "cld/cld-worker.js";
 
 var workerManager = {
   detectionQueue: [],
